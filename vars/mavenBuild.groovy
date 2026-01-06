@@ -1,4 +1,4 @@
 def call() {
-    echo 'I am MAVEN build tool from JAVA'
+    echo "I am MAVEN build tool from JAVA"
     sh 'mvn clean install'
 }
